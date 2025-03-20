@@ -3,7 +3,7 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=haikale&label=Profile%20views&color=0e75b6&style=flat-square" alt="haikale" /> </p>
 
-- 📄 Know about my experiences [https://drive.google.com/drive/folders/1peEvpMZ0vDdgf97ElCfLJfl3qaN56T_X](https://drive.google.com/drive/folders/1peEvpMZ0vDdgf97ElCfLJfl3qaN56T_X)
+- 📄 Know about my experiences [haikalrahman.com](https://www.haikalrahman.com)
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
