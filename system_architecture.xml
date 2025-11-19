@@ -1,0 +1,91 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0" version="24.0.0">
+  <diagram name="Page-1" id="system-architecture-diagram">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1200" pageHeight="900" math="0" shadow="1">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        
+        <!-- User Actor -->
+        <mxCell id="user-actor" value="User" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2.5;shadow=1;fontSize=16;fontStyle=1;rounded=1;arcSize=20;" vertex="1" parent="1">
+          <mxGeometry x="570" y="80" width="60" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrow from User to System -->
+        <mxCell id="arrow-user-system" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=3;strokeColor=#6c8ebf;endArrow=block;endFill=1;endSize=10;shadow=1;curved=0;" edge="1" parent="1" source="user-actor" target="system-box">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="240" />
+              <mxPoint x="600" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- System Box -->
+        <mxCell id="system-box" value="&lt;b&gt;&lt;font style=&quot;font-size: 20px;&quot;&gt;SYSTEM&lt;/font&gt;&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size: 24px;&quot;&gt;⚙️&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=3;shadow=1;fontSize=14;align=center;verticalAlign=middle;arcSize=15;glass=0;comic=0;fontStyle=0;spacingTop=10;spacingBottom=10;" vertex="1" parent="1">
+          <mxGeometry x="460" y="280" width="280" height="120" as="geometry" />
+        </mxCell>
+        
+        <!-- Arrow from System to Module 1 -->
+        <mxCell id="arrow-system-module1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2.5;strokeColor=#82b366;endArrow=block;endFill=1;endSize=8;shadow=1;curved=0;" edge="1" parent="1" source="system-box" target="module1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="450" />
+              <mxPoint x="190" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Arrow from System to Module 2 -->
+        <mxCell id="arrow-system-module2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2.5;strokeColor=#82b366;endArrow=block;endFill=1;endSize=8;shadow=1;curved=0;" edge="1" parent="1" source="system-box" target="module2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="450" />
+              <mxPoint x="430" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Arrow from System to Module 3 -->
+        <mxCell id="arrow-system-module3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2.5;strokeColor=#82b366;endArrow=block;endFill=1;endSize=8;shadow=1;curved=0;" edge="1" parent="1" source="system-box" target="module3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="450" />
+              <mxPoint x="770" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Arrow from System to Module 4 -->
+        <mxCell id="arrow-system-module4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2.5;strokeColor=#82b366;endArrow=block;endFill=1;endSize=8;shadow=1;curved=0;" edge="1" parent="1" source="system-box" target="module4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="450" />
+              <mxPoint x="1010" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        
+        <!-- Module 1: Generate Key -->
+        <mxCell id="module1" value="&lt;b&gt;Generate Key&lt;/b&gt;&lt;br&gt;public &amp;amp; private" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2.5;shadow=1;fontSize=14;align=center;verticalAlign=middle;arcSize=20;glass=0;comic=0;spacing=8;spacingTop=15;spacingBottom=15;" vertex="1" parent="1">
+          <mxGeometry x="80" y="520" width="220" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Module 2: Encryption -->
+        <mxCell id="module2" value="&lt;b&gt;Encryption&lt;/b&gt;&lt;br&gt;Message -&amp;gt; Encrypted" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;strokeWidth=2.5;shadow=1;fontSize=14;align=center;verticalAlign=middle;arcSize=20;glass=0;comic=0;spacing=8;spacingTop=15;spacingBottom=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="520" width="220" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Module 3: Decryption -->
+        <mxCell id="module3" value="&lt;b&gt;Decryption&lt;/b&gt;&lt;br&gt;Encrypted -&amp;gt; Plain Message" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=2.5;shadow=1;fontSize=14;align=center;verticalAlign=middle;arcSize=20;glass=0;comic=0;spacing=8;spacingTop=15;spacingBottom=15;" vertex="1" parent="1">
+          <mxGeometry x="660" y="520" width="220" height="100" as="geometry" />
+        </mxCell>
+        
+        <!-- Module 4: Analyze Memory -->
+        <mxCell id="module4" value="&lt;b&gt;Analyze Memory&lt;/b&gt;&lt;br&gt;Monitoring System" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2.5;shadow=1;fontSize=14;align=center;verticalAlign=middle;arcSize=20;glass=0;comic=0;spacing=8;spacingTop=15;spacingBottom=15;" vertex="1" parent="1">
+          <mxGeometry x="900" y="520" width="220" height="100" as="geometry" />
+        </mxCell>
+        
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
