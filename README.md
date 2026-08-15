@@ -1,56 +1,50 @@
 # Muhammad Haikal Rahman
 
-**Master’s Student in Informatics at Institut Teknologi Bandung | Cybersecurity / SOC Portfolio**
+Master’s student in Informatics at Institut Teknologi Bandung and Computer Science graduate focused on cybersecurity, security engineering, and practical defensive-security work.
 
-Medan, Indonesia · Open to early-career cybersecurity, SOC, managed security, and junior security engineering opportunities.
+I previously worked as a Data Engineer Intern at Telkomsel and currently build projects that combine security, software engineering, data pipelines, and technical investigation.
 
-I’m a Computer Science graduate building practical defensive-security depth through a Windows SOC home lab while bringing prior experience in software development, data workflows, automation, technical reporting, and applied security research.
-
-## Current cybersecurity focus
-
-- Windows endpoint telemetry and investigation using **Windows Security logs, PowerShell logging, and Sysmon**
-- SIEM monitoring and detection engineering with **Splunk Enterprise / Universal Forwarder / SPL**
-- Alert triage, cross-source correlation, false-positive analysis, incident documentation, and **MITRE ATT&CK** mapping
-- Practical blue-team learning across threat hunting, vulnerability management, digital forensics, network analysis, and OSINT
-
-## Featured security project
+## Selected work
 
 ### [SOC Home Lab — Detection Engineering & Incident Investigation](https://github.com/HaikalE/soc-home-lab)
+Windows endpoint telemetry and SIEM lab using Sysmon, PowerShell logging, Windows Security events, Splunk, SPL detections, MITRE ATT&CK mapping, and evidence-driven incident reports.
 
-An isolated personal training environment built around Windows 11, Ubuntu Server, Sysmon, PowerShell telemetry, Windows Security events, and Splunk.
+### [RSA/AES Chat Prototype](https://github.com/HaikalE/RSA-AES-CHAT-APPLICATION-ANDROID)
+Android and Node.js research prototype from my undergraduate thesis exploring AES-GCM message encryption and RSA CRT key operations. The repository is explicitly documented as an academic cryptography prototype rather than a production-secure messenger.
 
-The current core project includes:
+### [YouTube Trending Analytics Data Pipeline](https://github.com/HaikalE/youtube-data-engineering)
+Python ETL pipeline using Apache Airflow, Amazon S3, PostgreSQL, and Plotly Dash to collect, transform, store, and analyze YouTube trending-video data.
 
-- **DET-001 — Multiple Failed Logons**
-- **DET-002 — Encoded PowerShell Execution**
-- **DET-003 — PowerShell Spawned Command Shell**
-- **INC-001 / INC-002 / INC-003** evidence-driven incident investigations and final reports
-- Process lineage reconstruction with `ProcessGuid` / `ParentProcessGuid`
-- MITRE ATT&CK mapping and false-positive/context tuning
+### [Chess Analyzer](https://github.com/HaikalE/React-Chess-Analyze)
+React application that runs Stockfish analysis in the browser, imports PGN/online games, and synchronizes move navigation, engine evaluation, and charts without blocking the UI.
 
-> All security activity in the repository was performed in a controlled personal lab. No employer, production, or third-party systems were tested.
+### [Netflix Transcript Collector](https://github.com/HaikalE/auto-transcript-collector)
+Chrome Manifest V3 extension that captures subtitle responses, parses TTML captions, and turns them into an interactive timestamped transcript.
 
-## Credentials & training
+## Security focus
 
-- **ISC2 Certified in Cybersecurity (CC)** — ISC2
-- **Blue Team Junior Analyst Training Pathway** — Centri, completed Aug 10, 2026
-- **Information Technology Specialist in Python** — Certiport, 2025
+- endpoint telemetry and Windows event investigation
+- SIEM detection engineering and SPL
+- incident triage and cross-source correlation
+- MITRE ATT&CK mapping
+- applied cryptography and secure-software research
+- Python automation and data analysis
 
-## Research & technical background
+## Research and recognition
 
-- IEEE ICERA 2025 paper: *Instant Messaging Security Using Affine Cipher and RSA CRT Algorithm*
+- IEEE ICERA 2025 co-author: *Instant Messaging Security Using Affine Cipher and RSA CRT Algorithm*
 - Two registered Indonesian software copyrights related to RSA-based image-security applications
-- Top 33 Programmer Talent (“Hacker” Track), IndonesiaNEXT 9 — Telkomsel, 2025
-- Telkomsel Data Engineer internship experience with ticketing automation and Power BI operational reporting
+- Top 33 Programmer Talent ("Hacker" Track), IndonesiaNEXT 9 — Telkomsel, 2025
 
-## Selected toolkit
+## Credentials
 
-`Splunk` · `Sysmon` · `Windows Event Logs` · `PowerShell` · `MITRE ATT&CK` · `Python` · `SQL` · `JavaScript` · `Kotlin` · `Node.js` · `PostgreSQL` · `Power BI` · `VMware` · `Docker` · `Git`
+- ISC2 Certified in Cybersecurity (CC)
+- Information Technology Specialist in Python — Certiport
 
-## Links
+## Technology
 
-- **Portfolio:** https://haikale.github.io
-- **SOC Home Lab:** https://github.com/HaikalE/soc-home-lab
-- **LinkedIn:** https://www.linkedin.com/in/muhammad-haikal-rahman
+`Splunk` · `Sysmon` · `PowerShell` · `MITRE ATT&CK` · `Python` · `JavaScript` · `SQL` · `Kotlin` · `Node.js` · `React` · `PostgreSQL` · `Apache Airflow` · `AWS S3` · `Docker` · `Git`
 
-I prefer evidence over inflated labels: show the telemetry, code, report, or outcome—and be explicit about what is still being learned.
+## Contact
+
+[Portfolio](https://haikale.github.io) · [LinkedIn](https://www.linkedin.com/in/muhammad-haikal-rahman)
