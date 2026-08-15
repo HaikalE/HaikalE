@@ -2,7 +2,7 @@
 
 Master’s student in Informatics at Institut Teknologi Bandung and Computer Science graduate focused on cybersecurity, security engineering, and practical defensive-security work.
 
-I previously worked as a Data Engineer Intern at Telkomsel and currently build projects that combine security, software engineering, data pipelines, and technical investigation.
+I previously worked as a Data Engineer Intern at Telkomsel and build projects across security monitoring, applied cryptography, software engineering, browser tooling, and data pipelines.
 
 ## Selected work
 
@@ -10,16 +10,19 @@ I previously worked as a Data Engineer Intern at Telkomsel and currently build p
 Windows endpoint telemetry and SIEM lab using Sysmon, PowerShell logging, Windows Security events, Splunk, SPL detections, MITRE ATT&CK mapping, and evidence-driven incident reports.
 
 ### [RSA/AES Chat Prototype](https://github.com/HaikalE/RSA-AES-CHAT-APPLICATION-ANDROID)
-Android and Node.js research prototype from my undergraduate thesis exploring AES-GCM message encryption and RSA CRT key operations. The repository is explicitly documented as an academic cryptography prototype rather than a production-secure messenger.
+Android and Node.js research prototype from my undergraduate thesis exploring AES-GCM message encryption and RSA CRT key operations. It is documented as an academic cryptography prototype rather than a production-secure messenger.
 
 ### [YouTube Trending Analytics Data Pipeline](https://github.com/HaikalE/youtube-data-engineering)
 Python ETL pipeline using Apache Airflow, Amazon S3, PostgreSQL, and Plotly Dash to collect, transform, store, and analyze YouTube trending-video data.
 
 ### [Chess Analyzer](https://github.com/HaikalE/React-Chess-Analyze)
-React application that runs Stockfish analysis in the browser, imports PGN/online games, and synchronizes move navigation, engine evaluation, and charts without blocking the UI.
+React application that runs Stockfish analysis in the browser, imports PGN and online games, and synchronizes move navigation, engine evaluation, and charts without blocking the UI.
 
 ### [Netflix Transcript Collector](https://github.com/HaikalE/auto-transcript-collector)
-Chrome Manifest V3 extension that captures subtitle responses, parses TTML captions, and turns them into an interactive timestamped transcript.
+Chrome Manifest V3 extension that observes subtitle resources, parses TTML captions, and turns them into an interactive timestamped transcript.
+
+### [MicroRead BYOK](https://github.com/HaikalE/MicroRead-BYOK)
+Flutter document-learning application with PDF text extraction, Firebase-backed account flow, local state, and a bring-your-own-key design for optional external AI workflows.
 
 ## Security focus
 
@@ -43,7 +46,7 @@ Chrome Manifest V3 extension that captures subtitle responses, parses TTML capti
 
 ## Technology
 
-`Splunk` · `Sysmon` · `PowerShell` · `MITRE ATT&CK` · `Python` · `JavaScript` · `SQL` · `Kotlin` · `Node.js` · `React` · `PostgreSQL` · `Apache Airflow` · `AWS S3` · `Docker` · `Git`
+`Splunk` · `Sysmon` · `PowerShell` · `MITRE ATT&CK` · `Python` · `JavaScript` · `SQL` · `Kotlin` · `Node.js` · `React` · `Flutter` · `PostgreSQL` · `Apache Airflow` · `AWS S3` · `Docker` · `Git`
 
 ## Contact
 
